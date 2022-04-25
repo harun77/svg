@@ -1,0 +1,15 @@
+.container {
+    padding: 5px;
+    resize: both;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+
+.rect {
+    fill: gainsboro;
+    stroke-width: 3;
+    stroke: rgb(0, 0, 0);
+}

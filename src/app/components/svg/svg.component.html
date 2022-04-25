@@ -1,0 +1,8 @@
+<div class="container" [style.height.px]="height" [style.width.px]="width" (resized)="onResize($event)">
+    <svg class="svg" width="100%" height="100%">
+        <rect class="rect" width="100%" height="100%" />
+    </svg>
+</div>
+
+<h1>Height: {{ height }}px</h1>
+<h1>Width: {{ width }}px</h1>
