@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b3e14729-7e93-489f-bca4-a8a1a340a676": {
+      "ProjectGuid": "b3e14729-7e93-489f-bca4-a8a1a340a676",
+      "DisplayName": "svg",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

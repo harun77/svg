@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AngularResizeEventModule } from 'angular-resize-event';
@@ -13,7 +14,8 @@ import { SVGComponent } from './components/svg/svg.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularResizeEventModule
+    AngularResizeEventModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
